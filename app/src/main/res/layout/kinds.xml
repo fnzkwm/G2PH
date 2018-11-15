@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#6BD177">
+
+
+        <ImageView
+            android:id="@+id/kindsImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffffff"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:scaleType="centerCrop"
+            />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentBottom="true"
+                android:background="#ff000000"
+                android:alpha="0.8"
+                android:padding="20dp">
+
+                    <TextView
+                        android:id="@+id/kindsText1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="집식물 종류"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="#ffffffff"
+                        android:gravity="center"
+                        android:layout_marginBottom="20dp"/>
+
+
+                    <TextView
+                        android:id="@+id/kindsText2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="각 식물 특징"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:textColor="#ffffffff"
+                        android:gravity="center"/>
+
+
+
+
+
+            </LinearLayout>
+</RelativeLayout>

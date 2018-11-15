@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_cont1">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ff000000"
+        android:alpha="0.35"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@id/main_menu">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+<!--
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bg_cont1"
+                android:scaleType="centerCrop"/>
+-->
+
+            <LinearLayout
+                android:id="@+id/writing_text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                >
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/g2ph_logo_w" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="G2PH 이란?"
+                        android:textColor="#ffffffff"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="20dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingBottom="20dp">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Good Plant, Good House"
+                            android:textColor="#ffffffff"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="좋은 화분, 좋은 집 그리고..."
+                            android:textColor="#ffffffff"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="PH : 깔끔하고 알맞은 농도"
+                            android:textColor="#ffffffff"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/writing_text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="30dp"
+                android:layout_below="@id/writing_text1">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/leaf" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+
+                        android:layout_margin="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="집에 가고 싶다."
+                            android:textColor="#ffffffff"
+                            android:textSize="18dp"
+                            android:textStyle="bold"
+                            android:paddingBottom="20dp"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:paddingBottom="20dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="드디어 집에 도착!"
+                                android:textColor="#ffffffff"
+                                android:textSize="16dp"
+                                android:textStyle="bold"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="들어오자마자 나를 반기는 너"
+                                android:textColor="#ffffffff"
+                                android:textSize="16dp"
+                                android:textStyle="bold"
+                                />
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                        >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="당신을 마음을 편안하게 할"
+                                android:textColor="#ffffffff"
+                                android:textSize="16dp"
+                                android:textStyle="bold"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="G2PH 입니다."
+                                android:textColor="#ffffffff"
+                                android:textSize="16dp"
+                                android:textStyle="bold"
+                                />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/writing_text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="30dp"
+                android:layout_below="@id/writing_text2">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/leaf" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="묵묵히 지켜주는 너"
+                        android:textColor="#ffffffff"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:paddingBottom="20dp"
+                        />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingBottom="20dp">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="건강, 수면, 능률 다 좋지만"
+                            android:textColor="#ffffffff"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="너에게 필요한 건?"
+                            android:textColor="#ffffffff"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingBottom="20dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="우리가 숨쉴 수 있는 공간"
+                            android:textColor="#ffffffff"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="그 자체가 행복이고 삶!"
+                            android:textColor="#ffffffff"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingBottom="20dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="저희 G2PH도 지켜줄 수 있는"
+                            android:textColor="#ffffffff"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="환경을 만들겠습니다."
+                            android:textColor="#ffffffff"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/writing_text4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="30dp"
+                android:layout_below="@id/writing_text3">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="오늘 하루도 수고했어요."
+                        android:textColor="#ffffffff"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

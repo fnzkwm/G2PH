@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/total"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/bg_01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/g2ph_intro"
+            android:scaleType="centerCrop"/> <!--background-size: cover-->
+
+        <View
+            android:id="@+id/View01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000"
+            android:alpha="0.5"
+            android:onClick="onClicked_main"
+
+            />
+
+        <LinearLayout
+            android:id="@+id/Intro_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            >
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="260dp"
+                android:layout_gravity="center"
+                android:src="@drawable/g2ph_logo_w"
+                android:layout_marginTop="100dp"
+                />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/Intro_02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/Intro_01"
+            android:layout_centerHorizontal="true"
+            >
+
+            <RelativeLayout
+                android:id="@+id/Intro_02_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/IntroText1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="100dp"
+                    android:gravity="left"
+                    android:text="Good Plant"
+                    android:textColor="#ffffff"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/IntroText2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:layout_marginRight="40dp"
+                    android:layout_below="@id/IntroText1"
+                    android:text="Grow House"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:textSize="22dp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
